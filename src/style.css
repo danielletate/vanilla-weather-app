@@ -7,24 +7,11 @@ body {
 form {
   padding: 20px;
 }
-.city {
-  margin-right: -20px;
-}
 
 hr {
   border-top: 5px solid #0dcaf0;
 }
-.week-days {
-  font-weight: 100;
-  font-size: 30px;
-  margin-top: 30px;
-}
-.daily-temps {
-  font-size: 18px;
-}
-.daily-condition {
-  font-size: 14px;
-}
+
 h1 {
   text-align: center;
   padding: 20px;
@@ -46,7 +33,7 @@ h1 {
   font-weight: 100;
   position: relative;
   top: -25px;
-  left: 15px; 
+  left: 15px;
 }
 
 .partly-cloudy {
@@ -60,6 +47,25 @@ ul {
   text-align: center;
   font-size: 16px;
   list-style: none;
+}
+
+footer {
+  padding: 100px 20px 10px 10px;
+  margin: auto;
+}
+.city {
+  margin-right: -20px;
+}
+.week-days {
+  font-weight: 100;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.daily-temps {
+  font-size: 18px;
+}
+.daily-condition {
+  font-size: 14px;
 }
 
 .time {
@@ -83,9 +89,4 @@ ul {
   margin-top: 20px;
   margin-bottom: 50px;
   border-radius: 10px;
-}
-
-footer {
-  padding: 100px 20px 10px 10px;
-  margin: auto;
 }
