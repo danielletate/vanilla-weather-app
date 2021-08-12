@@ -22,6 +22,17 @@ h1 {
   line-height: 30px;
 }
 
+ul {
+  text-align: center;
+  font-size: 16px;
+  list-style: none;
+}
+
+footer {
+  padding: 100px 20px 10px 10px;
+  margin: auto;
+}
+
 .temperature {
   font-size: 50px;
   font-weight: 900;
@@ -36,22 +47,12 @@ h1 {
   left: 15px;
 }
 
-.partly-cloudy {
+.description {
   font-size: 24px;
   padding: 20px;
 }
 .time {
   font-size: 12px;
-}
-ul {
-  text-align: center;
-  font-size: 16px;
-  list-style: none;
-}
-
-footer {
-  padding: 100px 20px 10px 10px;
-  margin: auto;
 }
 .city {
   margin-right: -20px;
